@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB125B49222FC2B100E31096 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB125B48222FC2B100E31096 /* AppDelegate.m */; };
+		AB125B4C222FC2B100E31096 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB125B4B222FC2B100E31096 /* ViewController.m */; };
+		AB125B51222FC2B700E31096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB125B50222FC2B700E31096 /* Assets.xcassets */; };
+		AB125B54222FC2B700E31096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB125B52222FC2B700E31096 /* LaunchScreen.storyboard */; };
+		AB125B57222FC2B700E31096 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB125B56222FC2B700E31096 /* main.m */; };
+		AB125B5F222FCCEC00E31096 /* DSStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = AB125B5E222FCCEC00E31096 /* DSStudent.m */; };
+		AB125B62222FCD2B00E31096 /* DSDancer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB125B61222FCD2B00E31096 /* DSDancer.m */; };
+		AB125B68222FCD9600E31096 /* DSDeveloper.m in Sources */ = {isa = PBXBuildFile; fileRef = AB125B67222FCD9600E31096 /* DSDeveloper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB125B44222FC2B100E31096 /* SK-Lesson-7 Protocols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SK-Lesson-7 Protocols.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB125B47222FC2B100E31096 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB125B48222FC2B100E31096 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB125B4A222FC2B100E31096 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB125B4B222FC2B100E31096 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB125B50222FC2B700E31096 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB125B53222FC2B700E31096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB125B55222FC2B700E31096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB125B56222FC2B700E31096 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB125B5D222FCCEC00E31096 /* DSStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSStudent.h; sourceTree = "<group>"; };
+		AB125B5E222FCCEC00E31096 /* DSStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSStudent.m; sourceTree = "<group>"; };
+		AB125B60222FCD2B00E31096 /* DSDancer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSDancer.h; sourceTree = "<group>"; };
+		AB125B61222FCD2B00E31096 /* DSDancer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSDancer.m; sourceTree = "<group>"; };
+		AB125B66222FCD9600E31096 /* DSDeveloper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSDeveloper.h; sourceTree = "<group>"; };
+		AB125B67222FCD9600E31096 /* DSDeveloper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSDeveloper.m; sourceTree = "<group>"; };
+		AB125B69222FCFBA00E31096 /* PatientProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatientProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB125B41222FC2B100E31096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB125B3B222FC2B100E31096 = {
+			isa = PBXGroup;
+			children = (
+				AB125B46222FC2B100E31096 /* SK-Lesson-7 Protocols */,
+				AB125B45222FC2B100E31096 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB125B45222FC2B100E31096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB125B44222FC2B100E31096 /* SK-Lesson-7 Protocols.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB125B46222FC2B100E31096 /* SK-Lesson-7 Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AB125B47222FC2B100E31096 /* AppDelegate.h */,
+				AB125B48222FC2B100E31096 /* AppDelegate.m */,
+				AB125B5D222FCCEC00E31096 /* DSStudent.h */,
+				AB125B5E222FCCEC00E31096 /* DSStudent.m */,
+				AB125B60222FCD2B00E31096 /* DSDancer.h */,
+				AB125B61222FCD2B00E31096 /* DSDancer.m */,
+				AB125B66222FCD9600E31096 /* DSDeveloper.h */,
+				AB125B67222FCD9600E31096 /* DSDeveloper.m */,
+				AB125B69222FCFBA00E31096 /* PatientProtocol.h */,
+				AB125B4A222FC2B100E31096 /* ViewController.h */,
+				AB125B4B222FC2B100E31096 /* ViewController.m */,
+				AB125B50222FC2B700E31096 /* Assets.xcassets */,
+				AB125B52222FC2B700E31096 /* LaunchScreen.storyboard */,
+				AB125B55222FC2B700E31096 /* Info.plist */,
+				AB125B56222FC2B700E31096 /* main.m */,
+			);
+			path = "SK-Lesson-7 Protocols";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB125B43222FC2B100E31096 /* SK-Lesson-7 Protocols */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB125B5A222FC2B700E31096 /* Build configuration list for PBXNativeTarget "SK-Lesson-7 Protocols" */;
+			buildPhases = (
+				AB125B40222FC2B100E31096 /* Sources */,
+				AB125B41222FC2B100E31096 /* Frameworks */,
+				AB125B42222FC2B100E31096 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SK-Lesson-7 Protocols";
+			productName = "SK-Lesson-7 Protocols";
+			productReference = AB125B44222FC2B100E31096 /* SK-Lesson-7 Protocols.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB125B3C222FC2B100E31096 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Dmitry Shapkin";
+				TargetAttributes = {
+					AB125B43222FC2B100E31096 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AB125B3F222FC2B100E31096 /* Build configuration list for PBXProject "SK-Lesson-7 Protocols" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB125B3B222FC2B100E31096;
+			productRefGroup = AB125B45222FC2B100E31096 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB125B43222FC2B100E31096 /* SK-Lesson-7 Protocols */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB125B42222FC2B100E31096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB125B54222FC2B700E31096 /* LaunchScreen.storyboard in Resources */,
+				AB125B51222FC2B700E31096 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB125B40222FC2B100E31096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB125B5F222FCCEC00E31096 /* DSStudent.m in Sources */,
+				AB125B4C222FC2B100E31096 /* ViewController.m in Sources */,
+				AB125B57222FC2B700E31096 /* main.m in Sources */,
+				AB125B68222FCD9600E31096 /* DSDeveloper.m in Sources */,
+				AB125B62222FCD2B00E31096 /* DSDancer.m in Sources */,
+				AB125B49222FC2B100E31096 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB125B52222FC2B700E31096 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB125B53222FC2B700E31096 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB125B58222FC2B700E31096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB125B59222FC2B700E31096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB125B5B222FC2B700E31096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N52WYVQTKK;
+				INFOPLIST_FILE = "SK-Lesson-7 Protocols/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.shapkindev.SK-Lesson-7-Protocols";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB125B5C222FC2B700E31096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N52WYVQTKK;
+				INFOPLIST_FILE = "SK-Lesson-7 Protocols/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.shapkindev.SK-Lesson-7-Protocols";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB125B3F222FC2B100E31096 /* Build configuration list for PBXProject "SK-Lesson-7 Protocols" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB125B58222FC2B700E31096 /* Debug */,
+				AB125B59222FC2B700E31096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB125B5A222FC2B700E31096 /* Build configuration list for PBXNativeTarget "SK-Lesson-7 Protocols" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB125B5B222FC2B700E31096 /* Debug */,
+				AB125B5C222FC2B700E31096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB125B3C222FC2B100E31096 /* Project object */;
+}
