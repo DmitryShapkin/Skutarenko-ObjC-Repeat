@@ -6,11 +6,13 @@
 //  Copyright © 2019 Dmitry Shapkin. All rights reserved.
 //
 
+
 #import <UIKit/UIKit.h>
+
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DSDrawingView : UIView
+@interface DSDrawingView : UIScrollView
 
 @end
 

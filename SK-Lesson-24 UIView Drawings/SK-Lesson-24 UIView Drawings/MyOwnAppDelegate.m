@@ -6,14 +6,15 @@
 //  Copyright © 2019 Dmitry Shapkin. All rights reserved.
 //
 
+
 #import "MyOwnAppDelegate.h"
+
 
 @implementation MyOwnAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     NSLog(@"didFinishLaunchingWithOptions");
-    
     return YES;
 }
 

@@ -6,13 +6,16 @@
 //  Copyright © 2019 Dmitry Shapkin. All rights reserved.
 //
 
+
 #import <UIKit/UIKit.h>
+
 
 @class DSDrawingView;
 
+
 @interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet DSDrawingView* drawingView;
+@property (nonatomic, weak) IBOutlet DSDrawingView* drawingView;
 
 @end
 
