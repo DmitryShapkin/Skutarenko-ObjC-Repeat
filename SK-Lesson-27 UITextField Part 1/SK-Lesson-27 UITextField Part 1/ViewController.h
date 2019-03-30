@@ -10,7 +10,12 @@
 #import <UIKit/UIKit.h>
 
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate>
 
+@property (weak, nonatomic) IBOutlet UITextField* firstNameField;
+@property (weak, nonatomic) IBOutlet UITextField* lastNameField;
+
+- (IBAction)actionLog:(id)sender;
+- (IBAction)actionTextChanged:(UITextField *)sender;
 
 @end
