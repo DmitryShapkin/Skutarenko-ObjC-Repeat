@@ -29,7 +29,6 @@ typedef NS_ENUM(NSInteger, ASColorSchemeType)
     [super viewDidLoad];
     
     [self refreshScreen];
-
     self.colorSchemeControl.selectedSegmentIndex = ASColorSchemeTypeRGB;
 }
 
