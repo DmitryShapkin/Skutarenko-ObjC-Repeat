@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABE8499F2250B4F000EFA77A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8499E2250B4F000EFA77A /* AppDelegate.m */; };
+		ABE849A22250B4F000EFA77A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE849A12250B4F000EFA77A /* ViewController.m */; };
+		ABE849A52250B4F000EFA77A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE849A32250B4F000EFA77A /* Main.storyboard */; };
+		ABE849A72250B4F200EFA77A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE849A62250B4F200EFA77A /* Assets.xcassets */; };
+		ABE849AA2250B4F200EFA77A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE849A82250B4F200EFA77A /* LaunchScreen.storyboard */; };
+		ABE849AD2250B4F200EFA77A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE849AC2250B4F200EFA77A /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABE8499A2250B4F000EFA77A /* SK-Lesson-29 UITableView Static Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SK-Lesson-29 UITableView Static Cells.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE8499D2250B4F000EFA77A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABE8499E2250B4F000EFA77A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABE849A02250B4F000EFA77A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABE849A12250B4F000EFA77A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABE849A42250B4F000EFA77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABE849A62250B4F200EFA77A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABE849A92250B4F200EFA77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABE849AB2250B4F200EFA77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE849AC2250B4F200EFA77A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABE849972250B4F000EFA77A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABE849912250B4F000EFA77A = {
+			isa = PBXGroup;
+			children = (
+				ABE8499C2250B4F000EFA77A /* SK-Lesson-29 UITableView Static Cells */,
+				ABE8499B2250B4F000EFA77A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABE8499B2250B4F000EFA77A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABE8499A2250B4F000EFA77A /* SK-Lesson-29 UITableView Static Cells.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABE8499C2250B4F000EFA77A /* SK-Lesson-29 UITableView Static Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ABE8499D2250B4F000EFA77A /* AppDelegate.h */,
+				ABE8499E2250B4F000EFA77A /* AppDelegate.m */,
+				ABE849A02250B4F000EFA77A /* ViewController.h */,
+				ABE849A12250B4F000EFA77A /* ViewController.m */,
+				ABE849A32250B4F000EFA77A /* Main.storyboard */,
+				ABE849A62250B4F200EFA77A /* Assets.xcassets */,
+				ABE849A82250B4F200EFA77A /* LaunchScreen.storyboard */,
+				ABE849AB2250B4F200EFA77A /* Info.plist */,
+				ABE849AC2250B4F200EFA77A /* main.m */,
+			);
+			path = "SK-Lesson-29 UITableView Static Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABE849992250B4F000EFA77A /* SK-Lesson-29 UITableView Static Cells */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE849B02250B4F200EFA77A /* Build configuration list for PBXNativeTarget "SK-Lesson-29 UITableView Static Cells" */;
+			buildPhases = (
+				ABE849962250B4F000EFA77A /* Sources */,
+				ABE849972250B4F000EFA77A /* Frameworks */,
+				ABE849982250B4F000EFA77A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SK-Lesson-29 UITableView Static Cells";
+			productName = "SK-Lesson-29 UITableView Static Cells";
+			productReference = ABE8499A2250B4F000EFA77A /* SK-Lesson-29 UITableView Static Cells.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABE849922250B4F000EFA77A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Dmitry Shapkin";
+				TargetAttributes = {
+					ABE849992250B4F000EFA77A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = ABE849952250B4F000EFA77A /* Build configuration list for PBXProject "SK-Lesson-29 UITableView Static Cells" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABE849912250B4F000EFA77A;
+			productRefGroup = ABE8499B2250B4F000EFA77A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABE849992250B4F000EFA77A /* SK-Lesson-29 UITableView Static Cells */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABE849982250B4F000EFA77A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE849AA2250B4F200EFA77A /* LaunchScreen.storyboard in Resources */,
+				ABE849A72250B4F200EFA77A /* Assets.xcassets in Resources */,
+				ABE849A52250B4F000EFA77A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABE849962250B4F000EFA77A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE849A22250B4F000EFA77A /* ViewController.m in Sources */,
+				ABE849AD2250B4F200EFA77A /* main.m in Sources */,
+				ABE8499F2250B4F000EFA77A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABE849A32250B4F000EFA77A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABE849A42250B4F000EFA77A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABE849A82250B4F200EFA77A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABE849A92250B4F200EFA77A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABE849AE2250B4F200EFA77A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABE849AF2250B4F200EFA77A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABE849B12250B4F200EFA77A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N52WYVQTKK;
+				INFOPLIST_FILE = "SK-Lesson-29 UITableView Static Cells/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.shapkindev.SK-Lesson-29-UITableView-Static-Cells";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABE849B22250B4F200EFA77A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N52WYVQTKK;
+				INFOPLIST_FILE = "SK-Lesson-29 UITableView Static Cells/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.shapkindev.SK-Lesson-29-UITableView-Static-Cells";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABE849952250B4F000EFA77A /* Build configuration list for PBXProject "SK-Lesson-29 UITableView Static Cells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE849AE2250B4F200EFA77A /* Debug */,
+				ABE849AF2250B4F200EFA77A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE849B02250B4F200EFA77A /* Build configuration list for PBXNativeTarget "SK-Lesson-29 UITableView Static Cells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE849B12250B4F200EFA77A /* Debug */,
+				ABE849B22250B4F200EFA77A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABE849922250B4F000EFA77A /* Project object */;
+}
