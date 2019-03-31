@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		ABE8499F2250B4F000EFA77A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8499E2250B4F000EFA77A /* AppDelegate.m */; };
-		ABE849A22250B4F000EFA77A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE849A12250B4F000EFA77A /* ViewController.m */; };
 		ABE849A52250B4F000EFA77A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE849A32250B4F000EFA77A /* Main.storyboard */; };
 		ABE849A72250B4F200EFA77A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE849A62250B4F200EFA77A /* Assets.xcassets */; };
 		ABE849AA2250B4F200EFA77A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE849A82250B4F200EFA77A /* LaunchScreen.storyboard */; };
 		ABE849AD2250B4F200EFA77A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE849AC2250B4F200EFA77A /* main.m */; };
+		ABE849B52250B66A00EFA77A /* DSSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE849B42250B66A00EFA77A /* DSSettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ABE8499A2250B4F000EFA77A /* SK-Lesson-29 UITableView Static Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SK-Lesson-29 UITableView Static Cells.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE8499D2250B4F000EFA77A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABE8499E2250B4F000EFA77A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ABE849A02250B4F000EFA77A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ABE849A12250B4F000EFA77A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ABE849A42250B4F000EFA77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABE849A62250B4F200EFA77A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABE849A92250B4F200EFA77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABE849AB2250B4F200EFA77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABE849AC2250B4F200EFA77A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABE849B32250B66A00EFA77A /* DSSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSSettingsViewController.h; sourceTree = "<group>"; };
+		ABE849B42250B66A00EFA77A /* DSSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSSettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +58,10 @@
 		ABE8499C2250B4F000EFA77A /* SK-Lesson-29 UITableView Static Cells */ = {
 			isa = PBXGroup;
 			children = (
+				ABE849B32250B66A00EFA77A /* DSSettingsViewController.h */,
+				ABE849B42250B66A00EFA77A /* DSSettingsViewController.m */,
 				ABE8499D2250B4F000EFA77A /* AppDelegate.h */,
 				ABE8499E2250B4F000EFA77A /* AppDelegate.m */,
-				ABE849A02250B4F000EFA77A /* ViewController.h */,
-				ABE849A12250B4F000EFA77A /* ViewController.m */,
 				ABE849A32250B4F000EFA77A /* Main.storyboard */,
 				ABE849A62250B4F200EFA77A /* Assets.xcassets */,
 				ABE849A82250B4F200EFA77A /* LaunchScreen.storyboard */,
@@ -141,8 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABE849A22250B4F000EFA77A /* ViewController.m in Sources */,
 				ABE849AD2250B4F200EFA77A /* main.m in Sources */,
+				ABE849B52250B66A00EFA77A /* DSSettingsViewController.m in Sources */,
 				ABE8499F2250B4F000EFA77A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
